@@ -4,7 +4,8 @@
     "description": "Démonstration TypeScript et POO",
     "main": "dist/index.html",
     "scripts": {
-        "build": "tsc --sourceMap --target ES5 src/*.ts --out dist/app.js",
+        "build": "tsc --sourceMap --target ES5 src/polymorphisme.ts --out dist/app.js",
+        "clean": "del 'dist/*.js' 'dist/*.map'",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
