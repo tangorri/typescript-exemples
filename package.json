@@ -1,0 +1,28 @@
+{
+    "name": "typescript-exemples",
+    "version": "1.0.0",
+    "description": "Démonstration TypeScript et POO",
+    "main": "dist/index.html",
+    "scripts": {
+        "build": "tsc --sourceMap --target ES5 src/*.ts --out dist/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tangorri/typescript-exemples.git"
+    },
+    "keywords": [
+        "typescript",
+        "pédagoie",
+        "poo"
+    ],
+    "author": "Tangorri",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tangorri/typescript-exemples/issues"
+    },
+    "homepage": "https://github.com/tangorri/typescript-exemples#readme",
+    "devDependencies": {
+        "typescript": "^2.5.2"
+    }
+}
